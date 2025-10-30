@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'color_swap.dart';
+import 'package:flutter_course/screens/screen_1.dart';
+//import 'color_swap.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const ColorSwap(),
+      home: const Screen1(),
     );
   }
 }
